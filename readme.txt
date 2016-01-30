@@ -2,8 +2,8 @@
 Contributors: angrycreative, viktorfroberg
 Tags: Facebook, Angry Creative, Open Graph, Social
 Requires at least: 3.5
-Tested up to: 4.3.1
-Stable tag: 1.1.0
+Tested up to: 4.4.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ add_filter('fogs_post_types', function(){
 2. Activate the plugin through the 'Plugins' menu in WordPress (activate for network if multisite)
 
 == Changelog ==
+
+= 1.1.0 =
+* Rewrite plugin.
 
 = 1.1.0 =
 * Changed from httprequest to wp-remote-post
