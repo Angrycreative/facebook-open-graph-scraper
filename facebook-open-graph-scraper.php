@@ -18,7 +18,7 @@ if ( ! defined( 'WPINC' ) ) {
 class AC_Facebook_Open_Graph_Scraper {
 
     function __construct(){
-        add_action( 'save_post', array($this, 'post_scraper'), 10, 2);
+        add_action( 'save_post', array($this, 'post_scraper'), 90, 2);
     }
     /**
 	 * Filter what post types should be re-scraped
