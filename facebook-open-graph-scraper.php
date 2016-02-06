@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Facebook Open Graph Scraper.
+ * Plugin Name: Facebook Open Graph Scraper
  * Plugin URI: http://angrycreative.se
  * Description: On save post, send post url to facebook and re scrape open graph information.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: viktorfroberg
  * Author URI: http://angrycreative.se
  * License: GPLv2

@@ -2,8 +2,8 @@
 Contributors: angrycreative, viktorfroberg
 Tags: Facebook, Angry Creative, Open Graph, Social
 Requires at least: 3.5
-Tested up to: 4.4.1
-Stable tag: 1.2.0
+Tested up to: 4.4.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,12 +33,17 @@ add_filter('fogs_post_types', function(){
 
 == Changelog ==
 
-= 1.1.0 =
+= 1.2.1 =
+* Fix incompatibility with the W3 Total Cache plugin (Thanks to Ricky Rydén).
+* Compatible with WordPress 4.4.2.
+* Fix typo in changelog.
+
+= 1.2.0 =
 * Rewrite plugin.
 
 = 1.1.0 =
-* Changed from httprequest to wp-remote-post
-* Added admin notice on scrape error
+* Changed from httprequest to wp-remote-post.
+* Added admin notice on scrape error.
 
 = 1.0.0 =
-* First public release
+* First public release.
